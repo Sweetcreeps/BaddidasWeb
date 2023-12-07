@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body p {
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: gray;
+}
+
+
+/* ========= HEADER ========= */
+
+.nav-items{
+  list-style: none;
+  display: flex;
+  
+}
+
+.nav{
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  
+}
+
+.nav-items > li{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav > img{
+  width: 140px;
+}
+
+
+
+.nav form {
+  width: 300px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-input{
+  padding: 8px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc; 
+  margin-right: 4px;
+}
+
+.nav-button{
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+/* ========= HOME ========= */
+
+.home-img{
+  width: 100%;
+  height: 80%;
+}
+
+.image-with-text {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.image-with-text img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  text-align: left;
+  color: white;
+}
+
+.text-overlay h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  color: white;
+}
+
+.text-overlay h2:hover{
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .text-overlay h2 {
+    font-size: 1rem; 
+  }
+  .img-overlay .text-overlay h2{
+    font-size: 10px;
+  }
+  .home-img {
+    width: auto;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .item-details img{
+    padding: 40px 0px 0px 100px;
+    width: 70%;
+    height: 80%;
+    float: right;
+  }
+
+}
+
+
+.main-display img{
+  padding: 110px 0px 20px 0px;
+  width: 100%;
+  height: 80%;
+}
+
+.img-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.img-overlay .text-overlay {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  text-align: left;
+  color: white;
+}
+
+.img-overlay .text-overlay h2{
+  font-size: 3rem;
+}
+
+/* ========= BREADCRUMBS ========= */
+
+.breadcrumbs {
+  padding: 20px 0 20px 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #545454;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 5px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6e6e6e;
+  content: "/";
+}
+
+
+
+
+/* ========= ITEM DETAILS ========= */
+
+
+
+.size-button{
+  background: none;
+  margin: 10px 5px 10px 5px;
+}
+
+.size-button:hover{
+  background-color: lightgreen;
+}
+
+.size-button:focus{
+  background-color: lightgreen;
+}
+
+.add-button button{
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 50px 10px 10px;
+  
+}
+
+.add-button{
+  margin-top: 30px;
+  
+}
+
+.about-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(84, 84, 84, 0.08);
+  float: left;
+}
+
+.about-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#about{
+  padding-top: 100px;
+  
+}
+
+
+/* ========= ITEM LIST ========= */
+
+.list-row-1{
+  padding-bottom: 45px;
+}
+
+.product-list-items img{
+
+  height: 80%;
+  width: 85%;
+  padding: 30px 0px 0px 0px;
+}
+
+.item-price{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ========= FOOTER =========*/
+#footer {
+  background: #404040;
+  padding: 0px 0px 30px 0px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 400px;
+  
+ 
+  
+}
+
+
+
+#footer .footer-top {
+  background: #3b3b3b;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  padding: 60px 0 30px 0;
+  
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #545454;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #e96b56;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #ec7f6d;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #e96b56;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+.footer-contact p{
+  color: white;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+
+
+
+
