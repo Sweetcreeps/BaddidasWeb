@@ -10,7 +10,7 @@ export default function Home () {
             <div className="row " >
                 <div className="col-md-12 text image-with-text">
                     <div className="text-overlay"><Link to="/women" > <h2>Shop Now</h2> </Link></div>
-                    <img className="home-img" src="./mainimg.jpg" fluid />
+                    <img className="home-img" src="../mainimg.jpg" fluid />
                     
                 </div>
 
