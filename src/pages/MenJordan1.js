@@ -10,7 +10,7 @@ export default function MenJordan1(){
                     <Breadcrumbs pageTitle={'Air Jordan 1 Mid'} breadcrumbText={'Men'}  crumbTextPath={'/men'} breadcrumbDeeper={'Air Jordan 1 Mid'} crumbDeeperPath={'/menJordan1'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Men-Shoe-1.jpg'} itemName={'Air Jordan 1 Mid'} itemPrice={'£129.95'} />
+        <ItemShowcase imgSrc={'./menShoe1.jpg'} itemName={'Air Jordan 1 Mid'} itemPrice={'£129.95'} />
       </div>
         
     );

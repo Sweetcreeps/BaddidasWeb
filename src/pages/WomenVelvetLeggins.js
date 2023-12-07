@@ -10,7 +10,7 @@ export default function WomenVelvetLeggins(){
                     <Breadcrumbs pageTitle={'Adidas Velvet Panel Leggins'} breadcrumbText={'Women'}  crumbTextPath={'/women'} breadcrumbDeeper={'Adidas Velvet Panel Leggins'} crumbDeeperPath={'/womenVelvetLeggins'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Women-Cloth-1.jpg'} itemName={'Adidas Originals Velvet Panel Leggings'} itemPrice={'£40.00'} />
+        <ItemShowcase imgSrc={'./womenCloth1.jpg'} itemName={'Adidas Originals Velvet Panel Leggings'} itemPrice={'£40.00'} />
       </div>
         
     );

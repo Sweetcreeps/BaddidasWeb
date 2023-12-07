@@ -10,7 +10,7 @@ export default function WomenNikeFleece(){
                     <Breadcrumbs pageTitle={'Nike Sportswear Club Fleece'} breadcrumbText={'Women'}  crumbTextPath={'/women'} breadcrumbDeeper={'Nike Sportswear Club Fleece'} crumbDeeperPath={'/womenNikeFleece'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Women-Cloth-2.jpg'} itemName={'Nike Sportswear Club Fleece'} itemPrice={'£45.95'} />
+        <ItemShowcase imgSrc={'./womenCloth2.jpg'} itemName={'Nike Sportswear Club Fleece'} itemPrice={'£45.95'} />
       </div>
         
     );

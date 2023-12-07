@@ -10,7 +10,7 @@ export default function KidsOverhead(){
                     <Breadcrumbs pageTitle={'Hoodrich Certify Overhead Hoodie Junior'} breadcrumbText={'Kids'}  crumbTextPath={'/kids'} breadcrumbDeeper={'Hoodrich Certify Overhead Hoodie Junior'} crumbDeeperPath={'/kidsOverhead'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Men-Cloth-2.jpg'} itemName={'Hoodrich Certify Overhead Hoodie Junior'} itemPrice={'£45.00'} />
+        <ItemShowcase imgSrc={'./menCloth2.jpg'} itemName={'Hoodrich Certify Overhead Hoodie Junior'} itemPrice={'£45.00'} />
       </div>
         
     );

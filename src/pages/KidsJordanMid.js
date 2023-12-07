@@ -10,7 +10,7 @@ export default function KidsJordanMid(){
                     <Breadcrumbs pageTitle={'Jordan Air 1 Mid Alt Infant'} breadcrumbText={'Kids'}  crumbTextPath={'/kids'} breadcrumbDeeper={'Jordan Air 1 Mid Alt Infant'} crumbDeeperPath={'/kidsJordanMid'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Kids-Shoe-1.jpg'} itemName={'Jordan Air 1 Mid Alt Infant'} itemPrice={'£50.00'} />
+        <ItemShowcase imgSrc={'./kidsShoe1.jpg'} itemName={'Jordan Air 1 Mid Alt Infant'} itemPrice={'£50.00'} />
       </div>
         
     );

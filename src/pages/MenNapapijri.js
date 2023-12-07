@@ -10,7 +10,7 @@ export default function MenNapapijri(){
                     <Breadcrumbs pageTitle={'Napapijri Salis Small Logo T-Shirt'} breadcrumbText={'Men'}  crumbTextPath={'/men'} breadcrumbDeeper={'Napapijri Salis Small Logo T-Shirt'} crumbDeeperPath={'/menNapapijri'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Men-Cloth-1.jpg'} itemName={'Napapijri Salis Small Logo T-Shirt'} itemPrice={'£30.00'} />
+        <ItemShowcase imgSrc={'./menCloth1.jpg'} itemName={'Napapijri Salis Small Logo T-Shirt'} itemPrice={'£30.00'} />
       </div>
         
     );

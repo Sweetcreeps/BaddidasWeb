@@ -10,7 +10,7 @@ export default function WomenGazelleShoe(){
                     <Breadcrumbs pageTitle={'GAZELLE BOLD SHOES'} breadcrumbText={'Women'}  crumbTextPath={'/women'} breadcrumbDeeper={'GAZELLE BOLD SHOES'} crumbDeeperPath={'/womenGazelleShoe'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Women-Shoe-1.jpg'} itemName={'GAZELLE BOLD SHOES'} itemPrice={'£90.00'} />
+        <ItemShowcase imgSrc={'./womenShoe1.jpg'} itemName={'GAZELLE BOLD SHOES'} itemPrice={'£90.00'} />
       </div>
         
     );

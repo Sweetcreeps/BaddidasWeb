@@ -10,7 +10,7 @@ export default function KidsZipTop(){
                     <Breadcrumbs pageTitle={"Nike Girls' Fitness Long Sleeve 1/2 Zip Top Junior"} breadcrumbText={'Kids'}  crumbTextPath={'/kids'} breadcrumbDeeper={"Nike Girls' Fitness Long Sleeve 1/2 Zip Top Junior"} crumbDeeperPath={'/kidsZipTop'}/>
                 </div>
             </div>
-        <ItemShowcase imgSrc={'./Kids-Cloth-2.jpg'} itemName={"Nike Girls' Fitness Long Sleeve 1/2 Zip Top Junior"} itemPrice={'£40.00'} />
+        <ItemShowcase imgSrc={'./kidsCloth2.jpg'} itemName={"Nike Girls' Fitness Long Sleeve 1/2 Zip Top Junior"} itemPrice={'£40.00'} />
       </div>
         
     );
